@@ -13,6 +13,13 @@ This app sees ``12/7/2011`` and automatically recognizing that it's a date, pars
 
 It supports dates in the format ``dd/mm/yyyy``, ``dd/mm`` with the delimiter being either a ``/`` or  ``-``.
 
+Installation
+============
+
+	git clone https://github.com/timbaobjects/rapidsms-datemod-app.git datemod
+
+Then add ``datemod`` to your INSTALLED_APPS setting in your settings.py
+
 Dependencies
 ============
 * `python-dateutil <http://pypi.python.org/pypi/python-dateutil>`_
